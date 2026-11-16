@@ -128,3 +128,11 @@ h1.page { font-size: clamp(1.8rem, 4vw, 2.4rem); margin: 0 0 8px; }
 .plan-credits { opacity: .8; margin-bottom: 8px; }
 .plan-card ul { padding-left: 18px; margin: 8px 0 0; line-height: 1.6; }
 .muted-note { opacity: .7; font-size: .9rem; margin-top: 14px; }
+
+.nav-cta { margin-left: 4px; padding: 8px 14px; font-size: 13px; white-space: nowrap; }
+.plan-cta { margin-top: 16px; width: 100%; }
+@media (max-width: 640px) {
+  .nav-inner { flex-wrap: wrap; }
+  .nav-links { width: 100%; gap: 12px; }
+  .nav-cta { margin-left: 0; }
+}
